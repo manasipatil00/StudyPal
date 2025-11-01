@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 
 import Login from './Login';
-import SignupPage from './SignupPage';
+import SignupLogin from './SignupLogin';
 import Chatbot from './Chatbot';
 // import Dashboard from './Dashboard';
 
@@ -14,7 +14,7 @@ function App() {
         <Router>
           <br />
           <Routes>
-            <Route path="/" element={<SignupPage />} />
+            <Route path="/" element={<SignupLogin />} />
             {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
             <Route path="/chatbot" element={<Chatbot />} />
           </Routes>
