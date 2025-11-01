@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 
 import Login from './Login';
+import SignupPage from './SignupPage';
 import Chatbot from './Chatbot';
 // import Dashboard from './Dashboard';
 
@@ -13,7 +14,7 @@ function App() {
         <Router>
           <br />
           <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="/" element={<SignupPage />} />
             {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
             <Route path="/chatbot" element={<Chatbot />} />
           </Routes>
